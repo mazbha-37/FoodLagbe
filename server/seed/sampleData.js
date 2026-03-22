@@ -38,7 +38,7 @@ const RESTAURANTS_DATA = [
       address: 'House 5, Road 2, Dhanmondi, Dhaka-1205',
       location: { type: 'Point', coordinates: [90.3742, 23.7461] },
       phone: '01711111111',
-      cuisineTypes: ['Bengali'],
+      cuisineTypes: ['Bangladeshi'],
       estimatedPrepTime: 30,
       coverPhoto: photo('Kacchi Bhai'),
       tradeLicensePhoto: photo('License KB'),
