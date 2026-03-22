@@ -13,9 +13,13 @@ const app = express();
 // Security headers
 app.use(helmet());
 
-// CORS
+// CORS — support comma-separated origins for multi-environment
+const allowedOrigins = (process.env.CLIENT_URL || '').split(',').map(s => s.trim()).filter(Boolean);
 app.use(cors({
-  origin: process.env.CLIENT_URL,
+  origin: (origin, cb) => {
+    if (!origin || allowedOrigins.includes(origin)) return cb(null, true);
+    cb(new Error('Not allowed by CORS'));
+  },
   credentials: true,
 }));
 

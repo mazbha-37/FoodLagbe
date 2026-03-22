@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: foodlagbe-api
+    runtime: node
+    region: singapore
+    plan: free
+    rootDir: server
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
