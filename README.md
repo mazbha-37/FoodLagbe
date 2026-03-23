@@ -29,10 +29,10 @@ Built with the **MERN stack** — customers browse restaurants and track deliver
 | ![Homepage](./screentshoot/front_page.png) | ![Checkout](./screentshoot/order_page.png) |
 | _Location-based restaurant search_ | _Order with delivery address, coupon & payment_ |
 
-| Order Complete |
-|:---:|
-| ![Order Complete](./screentshoot/after_complete_the_order.png) |
-| _Status timeline, rider chat, and review system_ |
+| Live Order Tracking | Order Complete |
+|:---:|:---:|
+| ![Tracking](./screentshoot/track_order.png) | ![Order Complete](./screentshoot/after_complete_the_order.png) |
+| _Real-time delivery tracking with live map_ | _Status timeline, rider chat, and review system_ |
 
 </details>
 
@@ -63,8 +63,8 @@ Built with the **MERN stack** — customers browse restaurants and track deliver
 
 | Active Delivery | Delivery History |
 |:---:|:---:|
-| ![Delivery](./screentshoot/track_order.png) | ![History](./screentshoot/order_historyof%20rider.png) |
-| _Live GPS map & delivery status_ | _Completed orders with earnings_ |
+| ![Delivery](./screentshoot/active_delivery_map.png) | ![History](./screentshoot/order_historyof%20rider.png) |
+| _Live GPS map — blue marker: rider, red marker: restaurant_ | _Completed orders with earnings_ |
 
 </details>
 
