@@ -24,15 +24,15 @@ Built with the **MERN stack** — customers browse restaurants and track deliver
 <summary><b>Customer Interface</b> (click to expand)</summary>
 <br />
 
-| Homepage | Checkout |
-|:---:|:---:|
-| ![Homepage](./screentshoot/front_page.png) | ![Checkout](./screentshoot/order_page.png) |
-| _Location-based restaurant search_ | _Order with delivery address, coupon & payment_ |
+|                  Homepage                  |                    Checkout                     |
+| :----------------------------------------: | :---------------------------------------------: |
+| ![Homepage](./screentshoot/front_page.png) |   ![Checkout](./screentshoot/order_page.png)    |
+|     _Location-based restaurant search_     | _Order with delivery address, coupon & payment_ |
 
-| Live Order Tracking | Order Complete |
-|:---:|:---:|
+|             Live Order Tracking             |                         Order Complete                         |
+| :-----------------------------------------: | :------------------------------------------------------------: |
 | ![Tracking](./screentshoot/track_order.png) | ![Order Complete](./screentshoot/after_complete_the_order.png) |
-| _Real-time delivery tracking with live map_ | _Status timeline, rider chat, and review system_ |
+| _Real-time delivery tracking with live map_ |        _Status timeline, rider chat, and review system_        |
 
 </details>
 
@@ -40,15 +40,15 @@ Built with the **MERN stack** — customers browse restaurants and track deliver
 <summary><b>Restaurant Dashboard</b> (click to expand)</summary>
 <br />
 
-| Menu Management | Add Menu Item |
-|:---:|:---:|
+|                    Menu Management                    |              Add Menu Item               |
+| :---------------------------------------------------: | :--------------------------------------: |
 | ![Menu](./screentshoot/resturant_menu_management.png) | ![Add Item](./screentshoot/add_menu.png) |
-| _Categories and items overview_ | _Photo upload, description, pricing_ |
+|            _Categories and items overview_            |   _Photo upload, description, pricing_   |
 
-| Order Management |
-|:---:|
+|                            Order Management                            |
+| :--------------------------------------------------------------------: |
 | ![Orders](./screentshoot/ordermanagerment_from_resturantdashboard.png) |
-| _New, Active, Completed, and Cancelled tabs_ |
+|              _New, Active, Completed, and Cancelled tabs_              |
 
 </details>
 
@@ -56,15 +56,15 @@ Built with the **MERN stack** — customers browse restaurants and track deliver
 <summary><b>Rider Interface</b> (click to expand)</summary>
 <br />
 
-| Application | Dashboard |
-|:---:|:---:|
+|                     Application                      |                    Dashboard                     |
+| :--------------------------------------------------: | :----------------------------------------------: |
 | ![Application](./screentshoot/rider_application.png) | ![Dashboard](./screentshoot/rider_dashboard.png) |
-| _NID, photo upload, vehicle info_ | _Availability toggle & today's stats_ |
+|          _NID, photo upload, vehicle info_           |      _Availability toggle & today's stats_       |
 
-| Active Delivery | Delivery History |
-|:---:|:---:|
-| ![Delivery](./screentshoot/active_delivery_map.png) | ![History](./screentshoot/order_historyof%20rider.png) |
-| _Live GPS map — blue marker: rider, red marker: restaurant_ | _Completed orders with earnings_ |
+|                       Active Delivery                       |                    Delivery History                    |
+| :---------------------------------------------------------: | :----------------------------------------------------: |
+|     ![Delivery](./screentshoot/active_delivery_map.png)     | ![History](./screentshoot/order_historyof%20rider.png) |
+| _Live GPS map — blue marker: rider, red marker: restaurant_ |            _Completed orders with earnings_            |
 
 </details>
 
@@ -72,15 +72,15 @@ Built with the **MERN stack** — customers browse restaurants and track deliver
 <summary><b>Admin Dashboard</b> (click to expand)</summary>
 <br />
 
-| Dashboard | Restaurant Applications |
-|:---:|:---:|
+|                   Dashboard                    |                   Restaurant Applications                   |
+| :--------------------------------------------: | :---------------------------------------------------------: |
 | ![Admin](./screentshoot/admin%20dashboard.png) | ![Restaurants](./screentshoot/resturant_req_from_admin.png) |
-| _Platform analytics & order charts_ | _Review & approve restaurants_ |
+|      _Platform analytics & order charts_       |               _Review & approve restaurants_                |
 
-| Rider Applications |
-|:---:|
+|                       Rider Applications                        |
+| :-------------------------------------------------------------: |
 | ![Riders](./screentshoot/rider_request_from_admin_dasboard.png) |
-| _Approve or reject rider applications_ |
+|             _Approve or reject rider applications_              |
 
 </details>
 
@@ -91,6 +91,7 @@ Built with the **MERN stack** — customers browse restaurants and track deliver
 <td width="50%" valign="top">
 
 ### Customer
+
 - Browse nearby restaurants with location search
 - Search by restaurant name or cuisine
 - View menus with categories
@@ -108,6 +109,7 @@ Built with the **MERN stack** — customers browse restaurants and track deliver
 <td width="50%" valign="top">
 
 ### Restaurant Owner
+
 - Apply to register (admin-approved)
 - Dashboard with stats & earnings charts
 - Full menu management (categories, items, images)
@@ -123,6 +125,7 @@ Built with the **MERN stack** — customers browse restaurants and track deliver
 <td width="50%" valign="top">
 
 ### Rider
+
 - Apply as rider (admin-approved)
 - Toggle availability on/off
 - Auto-assignment by nearest distance
@@ -136,6 +139,7 @@ Built with the **MERN stack** — customers browse restaurants and track deliver
 <td width="50%" valign="top">
 
 ### Admin
+
 - Platform-wide analytics dashboard
 - Approve/reject restaurant applications
 - Approve/reject rider applications
@@ -150,16 +154,16 @@ Built with the **MERN stack** — customers browse restaurants and track deliver
 
 ### Platform Highlights
 
-| Feature | Description |
-|---|---|
-| Real-time | Socket.IO for notifications, chat, live tracking |
-| Authentication | JWT with refresh tokens (30-day sessions) |
-| Authorization | Role-based access (customer, restaurant_owner, rider, admin) |
-| Payments | Stripe checkout with webhook verification |
-| Maps | Leaflet for location picking & delivery tracking |
-| Images | Cloudinary uploads with compression |
-| Security | Helmet, CORS, rate limiting, data sanitization |
-| API Docs | Swagger UI at `/api-docs` (dev mode) |
+| Feature        | Description                                                  |
+| -------------- | ------------------------------------------------------------ |
+| Real-time      | Socket.IO for notifications, chat, live tracking             |
+| Authentication | JWT with refresh tokens (30-day sessions)                    |
+| Authorization  | Role-based access (customer, restaurant_owner, rider, admin) |
+| Payments       | Stripe checkout with webhook verification                    |
+| Maps           | Leaflet for location picking & delivery tracking             |
+| Images         | Cloudinary uploads with compression                          |
+| Security       | Helmet, CORS, rate limiting, data sanitization               |
+| API Docs       | Swagger UI at `/api-docs` (dev mode)                         |
 
 ## Tech Stack
 
@@ -168,38 +172,40 @@ Built with the **MERN stack** — customers browse restaurants and track deliver
 <td valign="top" width="50%">
 
 ### Frontend
-| Technology | Version |
-|---|---|
-| React | 19.2 |
-| Vite | 8.0 |
-| Redux Toolkit (RTK Query) | 2.11 |
-| React Router | 7.13 |
-| Tailwind CSS | 4.2 |
-| Socket.IO Client | 4.8 |
-| Leaflet + React Leaflet | 1.9 / 5.0 |
-| Recharts | 3.8 |
-| React Hook Form + Zod | 7.71 / 4.3 |
-| Lucide React | 0.577 |
-| date-fns | 4.1 |
+
+| Technology                | Version    |
+| ------------------------- | ---------- |
+| React                     | 19.2       |
+| Vite                      | 8.0        |
+| Redux Toolkit (RTK Query) | 2.11       |
+| React Router              | 7.13       |
+| Tailwind CSS              | 4.2        |
+| Socket.IO Client          | 4.8        |
+| Leaflet + React Leaflet   | 1.9 / 5.0  |
+| Recharts                  | 3.8        |
+| React Hook Form + Zod     | 7.71 / 4.3 |
+| Lucide React              | 0.577      |
+| date-fns                  | 4.1        |
 
 </td>
 <td valign="top" width="50%">
 
 ### Backend
-| Technology | Version |
-|---|---|
-| Node.js | 20+ |
-| Express | 5.2 |
-| MongoDB + Mongoose | 7+ / 9.3 |
-| Socket.IO | 4.8 |
-| JSON Web Tokens | 9.0 |
-| Stripe | 20.4 |
-| Cloudinary | 2.9 |
-| Joi (validation) | 18.0 |
-| Swagger (jsdoc + UI) | 6.2 / 5.0 |
-| Helmet / CORS / HPP | 8.1 / 2.8 / 0.2 |
-| Winston (logging) | 3.19 |
-| node-cron | 4.2 |
+
+| Technology           | Version         |
+| -------------------- | --------------- |
+| Node.js              | 20+             |
+| Express              | 5.2             |
+| MongoDB + Mongoose   | 7+ / 9.3        |
+| Socket.IO            | 4.8             |
+| JSON Web Tokens      | 9.0             |
+| Stripe               | 20.4            |
+| Cloudinary           | 2.9             |
+| Joi (validation)     | 18.0            |
+| Swagger (jsdoc + UI) | 6.2 / 5.0       |
+| Helmet / CORS / HPP  | 8.1 / 2.8 / 0.2 |
+| Winston (logging)    | 3.19            |
+| node-cron            | 4.2             |
 
 </td>
 </tr>
@@ -236,23 +242,23 @@ cp server/.env.example server/.env
 
 Edit `server/.env`:
 
-| Variable | Description | Example |
-|---|---|---|
-| `NODE_ENV` | Environment mode | `development` |
-| `PORT` | Server port | `5000` |
-| `MONGODB_URI` | MongoDB connection string | `mongodb://localhost:27017/foodlagbe` |
-| `JWT_ACCESS_SECRET` | Secret for access tokens | Any secure random string |
-| `JWT_REFRESH_SECRET` | Secret for refresh tokens | Different secure random string |
-| `JWT_ACCESS_EXPIRY` | Access token lifespan | `1h` |
-| `JWT_REFRESH_EXPIRY` | Refresh token lifespan | `30d` |
-| `CLOUDINARY_CLOUD_NAME` | Cloudinary cloud name | From Cloudinary dashboard |
-| `CLOUDINARY_API_KEY` | Cloudinary API key | From Cloudinary dashboard |
-| `CLOUDINARY_API_SECRET` | Cloudinary API secret | From Cloudinary dashboard |
-| `STRIPE_SECRET_KEY` | Stripe secret key | `sk_test_...` |
-| `STRIPE_WEBHOOK_SECRET` | Stripe webhook signing secret | `whsec_...` |
-| `CLIENT_URL` | Frontend URL (for CORS) | `http://localhost:5173` |
-| `ADMIN_EMAIL` | Default admin email (seed) | `admin@foodlagbe.com` |
-| `ADMIN_PASSWORD` | Default admin password (seed) | `Admin@1234` |
+| Variable                | Description                   | Example                               |
+| ----------------------- | ----------------------------- | ------------------------------------- |
+| `NODE_ENV`              | Environment mode              | `development`                         |
+| `PORT`                  | Server port                   | `5000`                                |
+| `MONGODB_URI`           | MongoDB connection string     | `mongodb://localhost:27017/foodlagbe` |
+| `JWT_ACCESS_SECRET`     | Secret for access tokens      | Any secure random string              |
+| `JWT_REFRESH_SECRET`    | Secret for refresh tokens     | Different secure random string        |
+| `JWT_ACCESS_EXPIRY`     | Access token lifespan         | `1h`                                  |
+| `JWT_REFRESH_EXPIRY`    | Refresh token lifespan        | `30d`                                 |
+| `CLOUDINARY_CLOUD_NAME` | Cloudinary cloud name         | From Cloudinary dashboard             |
+| `CLOUDINARY_API_KEY`    | Cloudinary API key            | From Cloudinary dashboard             |
+| `CLOUDINARY_API_SECRET` | Cloudinary API secret         | From Cloudinary dashboard             |
+| `STRIPE_SECRET_KEY`     | Stripe secret key             | `sk_test_...`                         |
+| `STRIPE_WEBHOOK_SECRET` | Stripe webhook signing secret | `whsec_...`                           |
+| `CLIENT_URL`            | Frontend URL (for CORS)       | `http://localhost:5173`               |
+| `ADMIN_EMAIL`           | Default admin email (seed)    | `admin@foodlagbe.com`                 |
+| `ADMIN_PASSWORD`        | Default admin password (seed) | `Admin@1234`                          |
 
 Create `client/.env`:
 
@@ -283,30 +289,30 @@ cd ..
 npm run dev
 ```
 
-| Service | URL |
-|---|---|
-| Frontend | http://localhost:5173 |
-| Backend API | http://localhost:5000/api/v1 |
-| API Docs | http://localhost:5000/api-docs |
+| Service      | URL                                 |
+| ------------ | ----------------------------------- |
+| Frontend     | http://localhost:5173               |
+| Backend API  | http://localhost:5000/api/v1        |
+| API Docs     | http://localhost:5000/api-docs      |
 | Health Check | http://localhost:5000/api/v1/health |
 
 ## API Routes
 
-| Prefix | Description |
-|---|---|
-| `/api/v1/auth` | Register, login, logout, refresh token, forgot/reset password |
-| `/api/v1/users` | User profile management |
-| `/api/v1/restaurants` | Browse restaurants, restaurant CRUD |
-| `/api/v1/restaurants/:id/categories` | Menu category management |
-| `/api/v1/restaurants/:id/categories/:catId/items` | Menu item management |
-| `/api/v1/cart` | Cart operations (add, update, remove, clear) |
-| `/api/v1/orders` | Place orders, update status, track, messages |
-| `/api/v1/riders` | Rider profile, availability, active delivery, earnings |
-| `/api/v1/coupons` | Coupon validation and management |
-| `/api/v1/complaints` | File and manage complaints |
-| `/api/v1/notifications` | User notifications |
-| `/api/v1/admin` | Admin dashboard, approvals, user management |
-| `/api/v1/webhooks` | Stripe webhook handler |
+| Prefix                                            | Description                                                   |
+| ------------------------------------------------- | ------------------------------------------------------------- |
+| `/api/v1/auth`                                    | Register, login, logout, refresh token, forgot/reset password |
+| `/api/v1/users`                                   | User profile management                                       |
+| `/api/v1/restaurants`                             | Browse restaurants, restaurant CRUD                           |
+| `/api/v1/restaurants/:id/categories`              | Menu category management                                      |
+| `/api/v1/restaurants/:id/categories/:catId/items` | Menu item management                                          |
+| `/api/v1/cart`                                    | Cart operations (add, update, remove, clear)                  |
+| `/api/v1/orders`                                  | Place orders, update status, track, messages                  |
+| `/api/v1/riders`                                  | Rider profile, availability, active delivery, earnings        |
+| `/api/v1/coupons`                                 | Coupon validation and management                              |
+| `/api/v1/complaints`                              | File and manage complaints                                    |
+| `/api/v1/notifications`                           | User notifications                                            |
+| `/api/v1/admin`                                   | Admin dashboard, approvals, user management                   |
+| `/api/v1/webhooks`                                | Stripe webhook handler                                        |
 
 ## Project Structure
 
@@ -358,12 +364,12 @@ FoodLagbe/
 
 The app is deployed on:
 
-| Service | Purpose | URL |
-|---|---|---|
-| **Vercel** | Frontend hosting | [food-lagbe.vercel.app](https://food-lagbe.vercel.app) |
-| **Render** | Backend API + WebSocket | Free tier web service |
-| **MongoDB Atlas** | Database | Free M0 cluster |
-| **Cloudinary** | Image storage | Free tier |
+| Service           | Purpose                 | URL                                                    |
+| ----------------- | ----------------------- | ------------------------------------------------------ |
+| **Vercel**        | Frontend hosting        | [food-lagbe.vercel.app](https://food-lagbe.vercel.app) |
+| **Render**        | Backend API + WebSocket | Free tier web service                                  |
+| **MongoDB Atlas** | Database                | Free M0 cluster                                        |
+| **Cloudinary**    | Image storage           | Free tier                                              |
 
 ### Deploy Your Own
 
@@ -382,9 +388,3 @@ The app is deployed on:
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
----
-
-<p align="center">
-  Made with dedication for the streets of Bangladesh
-</p>
